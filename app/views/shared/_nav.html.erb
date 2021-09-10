@@ -1,0 +1,22 @@
+<nav class="navbar navbar-expand d-flex flex-column align-items-start" id="sidebar">
+  <%= image_tag "https://media-exp1.licdn.com/dms/image/D4E03AQETPMYS_fyApg/profile-displayphoto-shrink_400_400/0/1629486493016?e=1636588800&v=beta&t=0W9VEibnz-43H-lhVcUrkRZKAFC5QpyAzpdN9xLeOYQ", class: "img-fluid rounded-circle my-4 p-1 d-none d-md-block shadow" %>
+  <%# <%= link_to 'Jake Serok', class: "navbar-brand mx-0 font-weight-bold text-nowrap links" %>
+  <h4 class="name">Jake Serok</h4>
+  <ul class="navbar-nav d-flex flex-column mt-5 w-100">
+    <li class="nav-item w-100">
+      <%= link_to root_path, class: "links" do %>
+        <h4 class="nav-link text-light pl-4"><%= svg('house.svg') %>  Home</h4>
+      <% end %>
+      </li>
+    <li class="nav-item w-100">
+      <%= link_to projects_path, class: "links" do %>
+        <h4 class="nav-link text-light pl-4"><%= svg('projects.svg') %> Projects</h4>
+      <% end %>
+    </li>
+    <li class="nav-item w-100">
+      <%= link_to about_path, class: "links" do %>
+        <h4 class="nav-link text-light pl-4"><%= svg('about.svg') %> About Me</h4>
+      <% end %>
+    </li>
+  </ul>
+</nav>

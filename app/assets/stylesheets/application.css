@@ -1,0 +1,75 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+
+ * {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Raleway', sans-serif;
+ }
+
+ body {
+   min-height: 100vh;
+   background-color: #fff;
+ }
+
+ .name {
+   color: white;
+   padding: 0 0 0 20%;
+  }
+
+ .navbar {
+   width: 250px;
+   height: 100%;
+   position: fixed;
+   /* margin-left: -300px; */
+   background-color: darkblue;
+   border: 1px solid green;
+ }
+
+ .nav-link {
+   font-size: 1.5rem;
+ }
+
+ .nav-link:active,
+ .nav-link:focus,
+ .nav-link:hover {
+  background-color: blue;
+ }
+
+ .links {
+  text-decoration: none;
+ }
+
+ .navigation-outer {
+  display: flex;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  border: 1px solid red;
+}
+
+.center {
+  text-align: center;
+}
+
+iframe {
+  width: 1000px;
+  height: 480px;
+}

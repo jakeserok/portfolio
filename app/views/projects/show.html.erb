@@ -1,0 +1,10 @@
+<h1>Application <%= @project.id %></h1>
+<h2><%= @project.name %></h2>
+
+<iframe src="<%= @project.app %>">
+  <p>
+    Visit <%= @project.app %> if this iframe is unavailable.
+  </p>
+</iframe>
+
+<p><%= @project.app %></p>
