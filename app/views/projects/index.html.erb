@@ -4,8 +4,9 @@
   <div class="card">
     <div class="card-body">
       <span>
-        <h4><%= link_to project.name, project_path(project) %></h4>
+        <h3><%= link_to project.name, project.app %></h3>
       </span>
+      <h5>Git Hub repository: <%= link_to project.repo, project.repo %></h5>
       <p style="padding: 0.5rem 1rem;">
         <%= project.description %>
       </p>
