@@ -39,7 +39,7 @@
    position: fixed;
    /* margin-left: -300px; */
    background-color: darkblue;
-   border: 1px solid green;
+   /* border: 1px solid green; */
  }
 
  .nav-link {
@@ -62,14 +62,32 @@
   left: 0;
   height: 100%;
   width: 100%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .center {
   text-align: center;
+  padding: 0.5rem;
 }
 
 iframe {
   width: 1000px;
   height: 480px;
+}
+
+.icon {
+  width: 40px;
+  height: auto;
+}
+
+.icon-btm-lf {
+  position: absolute;
+  left: 45px;
+  bottom: 30px;
+}
+
+.icon-btm-rt {
+  position: absolute;
+  left: 120px;
+  bottom: 30px;
 }

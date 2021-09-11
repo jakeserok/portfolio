@@ -4,8 +4,11 @@
   <div class="card">
     <div class="card-body">
       <span>
-        <%= link_to project.name, project_path(project) %>
+        <h4><%= link_to project.name, project_path(project) %></h4>
       </span>
+      <p style="padding: 0.5rem 1rem;">
+        <%= project.description %>
+      </p>
     </div>
   </div>
   <br/>

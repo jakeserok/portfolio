@@ -5,3 +5,15 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Project.create(
+    name: "To Do List", 
+    app: "https://serok-todo.herokuapp.com",
+    repo: "https://github.com/jakeserok/to_do",
+    description: "Simple to-do list application created which allows users to create
+    a goal and sub tasks for the goal. These tasks can be marked as completed, which
+    will then cross it off the list utilizing jquery. The background of the app can be
+    changed with a toggle that is located in the navbar, allowing users to switch from 
+    light mode to dark mode. This feature uses session data to know which background to
+    display."
+  )
