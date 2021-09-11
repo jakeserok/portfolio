@@ -38,11 +38,7 @@
    height: 100%;
    position: fixed;
    /* margin-left: -300px; */
-<<<<<<< HEAD
-   background-color: darkblue;
-=======
    background-color: #0e0eee;
->>>>>>> 400b6e79d4db714244a3e28273b49086173874b9
    /* border: 1px solid green; */
  }
 
@@ -66,11 +62,8 @@
   left: 0;
   height: 100%;
   width: 100%;
-<<<<<<< HEAD
-=======
   background-color: #363636;
   color: white;
->>>>>>> 400b6e79d4db714244a3e28273b49086173874b9
   /* border: 1px solid red; */
 }
 
