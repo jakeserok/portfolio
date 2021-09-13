@@ -114,7 +114,7 @@
   background: #22ce8c;
   border-radius: 3px;
   position: relative;
-  box-shadow: 2px 2px 5px rgb(0 0 0 / 90%);
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 0.9);
 }
 
 .skill-1::before, .skill-2::before, .skill-3::before, .skill-4::before, 
