@@ -1,16 +1,17 @@
-<h1 class="center">My Projects</h1>
+<h2 class="center">My Projects</h2>
 
 <% @projects.each do |project| %>
-  <div class="card">
-    <div class="card-body">
+  <div class="card" style="margin-bottom:4px;">
+    <div class="card-header">
       <span>
         <h3><%= link_to project.name, project.app %></h3>
       </span>
       <h5>Git Hub repository: <%= link_to project.repo, project.repo %></h5>
-      <p style="padding: 0.5rem 1rem;">
+    </div>
+    <div class="card-body">
+      <p>
         <%= project.description %>
       </p>
     </div>
   </div>
-  <br/>
 <% end %>
