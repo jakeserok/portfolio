@@ -92,3 +92,65 @@
 .card {
   color: black;
 }
+
+.skill-name {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #f1f1f1;
+  margin: 15px 0;
+  width: 48%;
+}
+
+.skill-bar {
+  height: 6px;
+  background: gray;
+  border-radius: 3px;
+  max-width: 80%;
+  margin: 12px 0 0 2rem;
+}
+
+.skill-1, .skill-2, .skill-3, .skill-4, .skill-5, .skill-6 {
+  height: 6px;
+  background: #22ce8c;
+  border-radius: 3px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgb(0 0 0 / 90%);
+}
+
+.skill-1::before, .skill-2::before, .skill-3::before, .skill-4::before, 
+.skill-5::before, .skill-6::before {
+  content: attr(per);
+  position: absolute;
+  padding: 2px 4px;
+  color: white;
+  font-weight: bolder;
+  border-radius: 4px;
+  font-size: 12px;
+  top: -35px;
+  right: 0;
+  transform: translateX(50%);
+}
+
+.skill-1 {
+  width: 75%;
+}
+
+.skill-2 {
+  width: 65%;
+}
+
+.skill-3 {
+  width: 40%;
+}
+
+.skill-4 {
+  width: 50%;
+}
+
+.skill-5 {
+  width: 60%;
+}
+
+.skill-6 {
+  width: 60%;
+}
